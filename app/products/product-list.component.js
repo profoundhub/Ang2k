@@ -57,10 +57,9 @@ System.register(['angular2/core', 'angular2/router', './product-filter.pipe', '.
                         pipes: [product_filter_pipe_1.ProductFilterPipe],
                         directives: [star_component_1.StarComponent, router_1.ROUTER_DIRECTIVES]
                     }), 
-                    __metadata('design:paramtypes', [(typeof (_a = typeof product_service_1.ProductService !== 'undefined' && product_service_1.ProductService) === 'function' && _a) || Object])
+                    __metadata('design:paramtypes', [product_service_1.ProductService])
                 ], ProductListComponent);
                 return ProductListComponent;
-                var _a;
             }());
             exports_1("ProductListComponent", ProductListComponent);
         }
